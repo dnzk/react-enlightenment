@@ -4,6 +4,7 @@
   "description": "sink to throw all my react.js find-outs and learnings",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/dnzk/react-enlightenment/issues"
   },
-  "homepage": "https://github.com/dnzk/react-enlightenment#readme"
+  "homepage": "https://github.com/dnzk/react-enlightenment#readme",
+  "devDependencies": {
+    "gh-pages": "^0.11.0"
+  }
 }
