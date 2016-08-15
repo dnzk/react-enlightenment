@@ -1,4 +1,5 @@
 require('file?name=[name].[ext]!./index.html');
+require('./global-style/global.scss');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
